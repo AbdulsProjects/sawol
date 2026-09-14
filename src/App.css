@@ -2,4 +2,48 @@
   height: 100vh;
   width: 100vw;
   background-image: url(/public/assets/Sāwol\ -\ Background\ 2\ Landscape.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-backdrop {
+  height: 80vh;
+}
+
+.loading-star {
+  height: 30px;
+  width: 30px;
+  animation: 2.5s ease-in-out forwards infinite loading-spinner;
+}
+
+.landing-page-spinner-container {
+  display: grid;
+  grid-template-columns: 1fr 30px 1fr;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.landing-page-spinner-container strong {
+  font-size: xx-large;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+@keyframes loading-spinner {
+  0% {
+    transform: rotate(0);
+  }
+  60% {
+    transform: rotate(360deg);
+  }
+  60.0000001% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(0);
+  }
 }
