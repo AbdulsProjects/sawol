@@ -7,7 +7,7 @@ function App() {
       <img className="logo-backdrop" src="./assets/Logo with Name Transparent.png" alt="Logo for Sāwol sussex" />
       <div className="landing-page-spinner-container">
         <strong className='text-align-right'>Website coming soon</strong>
-        <img className="loading-star" src="./assets/Star.png" />
+        <img className="loading-star" src="./assets/Star.png" alt='' />
         <strong>Find us on socials</strong>
       </div>
     </div>
